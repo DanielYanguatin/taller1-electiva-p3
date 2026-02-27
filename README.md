@@ -1,29 +1,41 @@
 # 🔒 DevLocker v1 - API de Snippets Privados
 
-API REST para almacenar fragmentos de código (snippets) de forma privada con autenticación JWT.
+## ✨ Características
 
-## 🚀 Características
+- ✅ **Autenticación JWT** - Registro y login seguros
+- ✅ **CRUD completo de snippets** - Crear, leer, editar y eliminar
+- ✅ **Seguridad a nivel de datos** - Usuarios solo ven/editan/borran sus propios snippets
+- ✅ **Validaciones** con express-validator
+- ✅ **Manejo de errores** asíncronos con asyncHandler
+- ✅ **Middleware global** de errores
+- ✅ **Base de datos en MongoDB Atlas** (Nube)
+- ✅ **Referencias entre colecciones** (Mongoose Populate)
 
-- ✅ Autenticación con JWT
-- ✅ CRUD completo de snippets
-- ✅ Seguridad a nivel de datos (cada usuario solo ve sus snippets)
-- ✅ Validaciones con express-validator
-- ✅ Manejo de errores asíncronos
-- ✅ Middleware global de errores
-- ✅ Relaciones entre modelos con Mongoose References
+## 🛠️ Tecnologías Utilizadas
 
-## 🛠️ Tecnologías
+| Tecnología | Versión | Uso |
+|------------|---------|-----|
+| Node.js | 18.x | Entorno de ejecución |
+| Express | 4.18.x | Framework web |
+| MongoDB Atlas | - | Base de datos en la nube |
+| Mongoose | 7.5.x | ODM para MongoDB |
+| JWT | 9.0.x | Autenticación |
+| Bcryptjs | 2.4.x | Encriptación de contraseñas |
+| Express Validator | 7.0.x | Validaciones |
+| Dotenv | 16.3.x | Variables de entorno |
 
-- Node.js
-- Express
-- MongoDB + Mongoose
-- JWT
-- Bcryptjs
-- Express Validator
+## 📋 Prerrequisitos
 
-## 📦 Instalación
+- Node.js (v18 o superior)
+- npm
+- Cuenta en [MongoDB Atlas](https://cloud.mongodb.com/)
+- MongoDB Compass (opcional, para ver los datos)
+- Postman o Thunder Client (para probar la API)
 
-1. **Clonar repositorio**
+## 🚀 Instalación y Configuración
+
+### 1. Clonar el repositorio
+
 ```bash
 git clone https://github.com/tu-usuario/devlocker-v1.git
 cd devlocker-v1
