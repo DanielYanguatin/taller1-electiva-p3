@@ -1,5 +1,9 @@
+## 👩🏻‍💻🧑🏽‍💻 Integrantes
+- Aura Camila Arteaga Castillo
+- Daniel Obeimar Yanguatin Jacanamijoy
+  
 # 🔒 DevLocker v1 - API de Snippets Privados
-
+  
 ## ✨ Características
 
 - ✅ **Autenticación JWT** - Registro y login seguros
@@ -34,8 +38,9 @@
 
 ## 🚀 Instalación y Configuración
 
-### 1. Clonar el repositorio
+Clonar repositorio y ejecutar
 
 ```bash
-git clone https://github.com/tu-usuario/devlocker-v1.git
-cd devlocker-v1
+https://github.com/DanielYanguatin/taller1-electiva-p3.git
+npm install
+npm run dev
